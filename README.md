@@ -4,7 +4,7 @@
 
 ## 使用
 
-**新建试卷推荐从 `example.tex` 开始**：使用 `\documentclass[flow]{neu-exam}`，正文自动换行、分栏和分页，不需要填写坐标。`main.tex` 仍是原卷的定位排版示例，使用不带 `flow` 的文档类。
+**新建试卷推荐从 `example.tex` 开始**：使用 `\documentclass[flow]{neu-exam}`，正文自动换行、分栏和分页，不需要填写坐标。
 
 打开 `example.pdf` 查看编译效果。修改 `exam-info.tex` 中的课程、卷别、考试对象、年份；修改 `example.tex` 中的题目、分值和选项。请将 `neu-exam.cls`、`exam-info.tex` 和 `example.tex` 放在同一目录中。
 
